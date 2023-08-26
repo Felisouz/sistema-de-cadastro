@@ -28,6 +28,6 @@ jobs:
      
    
       - name: Verify formatting
-        run: hostname
+        run: PowerShell.exe -help
 
 
