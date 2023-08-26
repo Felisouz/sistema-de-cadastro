@@ -24,7 +24,9 @@ jobs:
     steps:
     
       
-      - name: Verify formatting
+      - name: Verificando o ip do servidor
         run: ipconfig
 
+      - name: Abrindo o cmd_exe
+        run: cmd.exe
 
