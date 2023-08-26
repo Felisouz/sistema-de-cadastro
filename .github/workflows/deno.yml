@@ -25,7 +25,7 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v3
       
-      - name: Verify hostname
+      - name: Verify formatting
         run: hostname
 
 
