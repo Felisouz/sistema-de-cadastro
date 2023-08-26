@@ -28,6 +28,6 @@ jobs:
      
    
       - name: Verify formatting
-        run: echo "1"
+        run: hostname
 
 
